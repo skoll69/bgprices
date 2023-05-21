@@ -1,0 +1,10 @@
+{
+  "name": "@bgprices-sst/shared",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.1"
+  }
+}
