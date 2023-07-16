@@ -16,7 +16,7 @@ export function Static({ stack }: StackContext) {
     },
     customDomain: {
       isExternalDomain: true,
-      domainName: 'bgprices2.skoll.xyz',
+      domainName: 'bgprices.skoll.xyz',
       cdk: {
         certificate: Certificate.fromCertificateArn(stack, 'cert', CERT_ARN)
       }
