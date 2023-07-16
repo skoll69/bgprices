@@ -32,7 +32,7 @@ const show = computed(() => {
       <td class="data_td">
         <div class="name"><a :href="data.itemUrl" target="_blank">{{ data.name }}</a></div>
         <img class="availability_icon" :src="availability_icon" />
-        <span class="price">{{ data.price.toFixed(2) }}{{ data.currency }}</span>
+        <span class="price">{{ data.price?.toFixed(2) }}{{ data.currency }}</span>
       </td>
     </tr>
   </table>

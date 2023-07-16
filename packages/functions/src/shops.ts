@@ -4,8 +4,8 @@ import { jsonResponse } from "./utils";
 const SHOPS = [
   'fantasiapelit',
   'lautapelit',
-  // 'pelipeikko',
-  // 'philibertnet',
+  'pelipeikko',
+  'philibert',
 ]
 
 export const handler = ApiHandler(async (_evt) => {

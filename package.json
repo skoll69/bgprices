@@ -10,7 +10,8 @@
     "remove": "sst remove",
     "client": "cd packages/client && pnpm sst bind vite",
     "console": "sst console",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test": "cd packages/functions && jest"
   },
   "devDependencies": {
     "sst": "^2.8.12",

@@ -3,6 +3,6 @@ export interface ResponseData {
   imageUrl: string;
   price: number;
   itemUrl: string;
-  available: boolean;
+  available: boolean | undefined;
   currency: string;
 }

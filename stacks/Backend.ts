@@ -5,6 +5,8 @@ export function API({ stack }: StackContext) {
     routes: {
       "GET /query/fantasiapelit": "packages/functions/src/controller.fantasiapelit",
       "GET /query/lautapelit": "packages/functions/src/controller.lautapelit",
+      "GET /query/philibert": "packages/functions/src/controller.philibert",
+      "GET /query/pelipeikko": "packages/functions/src/controller.pelipeikko",
       "GET /shops": "packages/functions/src/shops.handler",
     },
   });
