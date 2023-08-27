@@ -14,11 +14,11 @@
     "test": "cd packages/functions && jest"
   },
   "devDependencies": {
-    "sst": "^2.8.12",
-    "aws-cdk-lib": "2.72.1",
-    "constructs": "10.1.156",
-    "typescript": "^5.0.4",
-    "@tsconfig/node16": "^1.0.3"
+    "@tsconfig/node16": "^1.0.4",
+    "aws-cdk-lib": "^2.93.0",
+    "constructs": "^10.2.69",
+    "sst": "^2.24.16",
+    "typescript": "^5.2.2"
   },
   "workspaces": [
     "packages/*"
