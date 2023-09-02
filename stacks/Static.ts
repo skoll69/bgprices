@@ -1,6 +1,6 @@
 import { StackContext, use, StaticSite } from "sst/constructs";
 import { Certificate } from "aws-cdk-lib/aws-certificatemanager";
-import { API } from "./Backend";
+import { API } from "./Backend.js";
 
 const CERT_ARN = 'arn:aws:acm:us-east-1:020614016459:certificate/5b25dbf5-1d52-4184-8dcb-2565205b9a03'
 

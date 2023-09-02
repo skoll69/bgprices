@@ -14,7 +14,7 @@
     "test": "cd packages/functions && jest"
   },
   "devDependencies": {
-    "@tsconfig/node16": "^1.0.4",
+    "@tsconfig/node18": "^18.2.1",
     "aws-cdk-lib": "^2.94.0",
     "constructs": "^10.2.70",
     "sst": "^2.24.22",

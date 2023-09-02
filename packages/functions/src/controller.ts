@@ -1,9 +1,9 @@
 import { ApiHandler } from "sst/node/api";
-import { query as fantasiapelitQuery } from "./parsers/fantasiapelit"
-import { query as lautapelitQuery } from "./parsers/lautapelit"
-import { query as philibertQuery } from "./parsers/philibert"
-import { query as pelipeikkoQuery } from "./parsers/pelipeikko"
-import { jsonResponse } from "./utils";
+import { query as fantasiapelitQuery } from "./parsers/fantasiapelit.js"
+import { query as lautapelitQuery } from "./parsers/lautapelit.js"
+import { query as philibertQuery } from "./parsers/philibert.js"
+import { query as pelipeikkoQuery } from "./parsers/pelipeikko.js"
+import { jsonResponse } from "./utils.js";
 import { APIGatewayProxyEventV2 } from "aws-lambda";
 
 export const fantasiapelit = ApiHandler(async (evt) => {
